@@ -21,13 +21,13 @@ export default function App() {
       <InputTexto label="Digite seu nome" dica="Digite seu nome" />
       <InputTexto valor={atualizaTexto} label="Digite seu CPF" dica="Digite seu CPF" />
 
-      <Botao btn="entrar" cor='#000' src='home' />
+      <Botao btn="entrar" cor='#1477F2' src='home' cortexto = '#fff'  tm = '22%' />
       <View style={styles.cont}>
         <View style={styles.line} />
         <Text style={styles.text} >ou</Text>
         <View style={styles.line}></View>
       </View>
-      <Botao btn="excluir" cor='#f00' src='excluido' />
+      <Botao btn="criar nova conta" src='excluido' cortexto = '#000'/>
 
     </View>
   );
